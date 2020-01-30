@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE12B15923E2D709007762D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12B15823E2D709007762D6 /* Constants.swift */; };
 		EE1A141623E2D68800545256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A141523E2D68800545256 /* AppDelegate.swift */; };
 		EE1A141823E2D68800545256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A141723E2D68800545256 /* ViewController.swift */; };
 		EE1A141B23E2D68800545256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1A141923E2D68800545256 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		EE1A142023E2D68900545256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1A141E23E2D68900545256 /* LaunchScreen.storyboard */; };
 		EE1A142B23E2D68900545256 /* Bandana_AI_Eng_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A142A23E2D68900545256 /* Bandana_AI_Eng_IOSTests.swift */; };
 		EE1A143623E2D68900545256 /* Bandana_AI_Eng_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A143523E2D68900545256 /* Bandana_AI_Eng_IOSUITests.swift */; };
+		EE1A144923E2D7A200545256 /* APICalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A144823E2D7A200545256 /* APICalling.swift */; };
+		EE1A144B23E2D91900545256 /* GlobalMethodClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A144A23E2D91900545256 /* GlobalMethodClass.swift */; };
+		EE1A144D23E2DADB00545256 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A144C23E2DADB00545256 /* PostModel.swift */; };
+		EE1A144F23E2DBC500545256 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A144E23E2DBC500545256 /* PostsTableViewCell.swift */; };
+		EE1A145123E2DBD800545256 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A145023E2DBD800545256 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE12B15823E2D709007762D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EE1A141223E2D68800545256 /* Bandana_AI_Eng_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bandana_AI_Eng_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1A141523E2D68800545256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE1A141723E2D68800545256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		EE1A143123E2D68900545256 /* Bandana_AI_Eng_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bandana_AI_Eng_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1A143523E2D68900545256 /* Bandana_AI_Eng_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bandana_AI_Eng_IOSUITests.swift; sourceTree = "<group>"; };
 		EE1A143723E2D68900545256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1A144823E2D7A200545256 /* APICalling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalling.swift; sourceTree = "<group>"; };
+		EE1A144A23E2D91900545256 /* GlobalMethodClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalMethodClass.swift; sourceTree = "<group>"; };
+		EE1A144C23E2DADB00545256 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		EE1A144E23E2DBC500545256 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		EE1A145023E2DBD800545256 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				EE1A141523E2D68800545256 /* AppDelegate.swift */,
-				EE1A141723E2D68800545256 /* ViewController.swift */,
+				EE1A144723E2D6D800545256 /* SingleTon */,
+				EE1A144623E2D6D100545256 /* Model */,
+				EE1A144523E2D6C700545256 /* View */,
+				EE1A144423E2D6BD00545256 /* ViewModel */,
+				EE1A144323E2D6AA00545256 /* Controller */,
 				EE1A141923E2D68800545256 /* Main.storyboard */,
 				EE1A141C23E2D68900545256 /* Assets.xcassets */,
 				EE1A141E23E2D68900545256 /* LaunchScreen.storyboard */,
@@ -123,6 +139,48 @@
 				EE1A143723E2D68900545256 /* Info.plist */,
 			);
 			path = Bandana_AI_Eng_IOSUITests;
+			sourceTree = "<group>";
+		};
+		EE1A144323E2D6AA00545256 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A141723E2D68800545256 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE1A144423E2D6BD00545256 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A145023E2DBD800545256 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE1A144523E2D6C700545256 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A144E23E2DBC500545256 /* PostsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE1A144623E2D6D100545256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A144C23E2DADB00545256 /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE1A144723E2D6D800545256 /* SingleTon */ = {
+			isa = PBXGroup;
+			children = (
+				EE12B15823E2D709007762D6 /* Constants.swift */,
+				EE1A144823E2D7A200545256 /* APICalling.swift */,
+				EE1A144A23E2D91900545256 /* GlobalMethodClass.swift */,
+			);
+			path = SingleTon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +315,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE1A141823E2D68800545256 /* ViewController.swift in Sources */,
+				EE1A144D23E2DADB00545256 /* PostModel.swift in Sources */,
 				EE1A141623E2D68800545256 /* AppDelegate.swift in Sources */,
+				EE12B15923E2D709007762D6 /* Constants.swift in Sources */,
+				EE1A144B23E2D91900545256 /* GlobalMethodClass.swift in Sources */,
+				EE1A144F23E2DBC500545256 /* PostsTableViewCell.swift in Sources */,
+				EE1A145123E2DBD800545256 /* ViewModel.swift in Sources */,
+				EE1A144923E2D7A200545256 /* APICalling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Bandana_AI_Eng_IOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Bandana_AI_Eng_IOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
