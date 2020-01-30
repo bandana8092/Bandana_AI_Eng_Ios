@@ -29,7 +29,7 @@ class PostsTableViewCell: UITableViewCell {
     func updateCell(postModel:[PostModel],indexPath:IndexPath){
          self.switchButton.isUserInteractionEnabled = false
         self.titleLabel.text = postModel[indexPath.row].title
-        self.dateLabel.text = postModel[indexPath.row].createdDate
+        self.dateLabel.text = ViewModel.shared.updateDateFormat(date: postModel[indexPath.row].createdDate)
         self.switchButton.isOn =  postModel[indexPath.row].switchStatus
         self.contentView.backgroundColor = postModel[indexPath.row].switchStatus ? UIColor.lightGray : UIColor.white
         
