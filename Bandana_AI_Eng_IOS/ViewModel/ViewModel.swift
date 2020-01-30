@@ -58,19 +58,7 @@ class ViewModel: NSObject {
         postModel[indexPath.row].switchStatus = postModel[indexPath.row].switchStatus ? false : true
         complitionHandler(nil)
     }
-    //Mark:- Date Extension
-    func updateDateFormat(date:String)->String{
-        //"2020-01-30T09:46:44.000Z"
-        //"yyyy-MM-dd'T'HH:mm:ss.SSSZ"
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
-        let convertedDate = dateFormatter.date(from: date)
-        
-        let dateFormatter1 = DateFormatter()
-        dateFormatter1.dateFormat = "yyyy-MM-dd HH:mm a"
-        let requriedDate = dateFormatter1.string(from: convertedDate!)
-        return requriedDate
-    }
+    
     
     
 }
